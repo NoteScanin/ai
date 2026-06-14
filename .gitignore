@@ -1,6 +1,6 @@
-<<<<<<< HEAD
-temp.ipynb
-testing.ipynb
-=======
-temp.ipynb__pycache__/
->>>>>>> c29610b9483c07b9a48657b56118b9782cee83e0
+**/.venv/
+*.safetensors
+*.bin
+*.pt
+*.pth
+**/__pycache__/
