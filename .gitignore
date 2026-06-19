@@ -1,6 +1,28 @@
-<<<<<<< HEAD
-temp.ipynb
-testing.ipynb
-=======
-temp.ipynb__pycache__/
->>>>>>> c29610b9483c07b9a48657b56118b9782cee83e0
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models (too large for git)
+models/
+weights/
+checkpoint_ocr_tuf.pt
+crnn/crnn_model.pth
+trocr/notescan_trocr/
+
+# Dataset images (large)
+dataset/segmentation_final/
+dataset_asli/
+segmentation/
+data/images/
+data/corpus_dataset_*/
+data/temp/
+
+# Outputs
+outputs/

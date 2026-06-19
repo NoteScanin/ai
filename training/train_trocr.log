@@ -1,0 +1,15 @@
+Membaca dataset...
+Memuat Processor dan Model...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/478 [00:00<?, ?it/s]Loading weights:  12%|█▏        | 56/478 [00:00<00:00, 514.26it/s]Loading weights:  23%|██▎       | 108/478 [00:00<00:01, 330.93it/s]Loading weights:  30%|███       | 145/478 [00:00<00:00, 342.56it/s]Loading weights:  38%|███▊      | 182/478 [00:00<00:00, 348.42it/s]Loading weights:  46%|████▌     | 219/478 [00:00<00:00, 346.11it/s]Loading weights:  53%|█████▎    | 255/478 [00:00<00:00, 287.43it/s]Loading weights:  61%|██████    | 290/478 [00:00<00:00, 254.90it/s]Loading weights:  69%|██████▊   | 328/478 [00:01<00:00, 282.86it/s]Loading weights:  79%|███████▊  | 376/478 [00:01<00:00, 329.39it/s]Loading weights:  86%|████████▌ | 412/478 [00:01<00:00, 324.29it/s]Loading weights:  93%|█████████▎| 446/478 [00:01<00:00, 273.62it/s]Loading weights: 100%|██████████| 478/478 [00:01<00:00, 326.40it/s]
+[transformers] [1mVisionEncoderDecoderModel LOAD REPORT[0m from: microsoft/trocr-base-handwritten
+Key                         | Status  | 
+----------------------------+---------+-
+encoder.pooler.dense.bias   | MISSING | 
+encoder.pooler.dense.weight | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Memulai proses training TrOCR (Peringatan: Ini akan memakan waktu lama di CPU)...
+  0%|          | 0/678 [00:00<?, ?it/s]  0%|          | 1/678 [04:39<52:30:28, 279.21s/it]/usr/lib64/python3.14/multiprocessing/resource_tracker.py:475: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/mp-0drawkhi'}
+  warnings.warn(

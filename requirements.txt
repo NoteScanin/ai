@@ -1,9 +1,12 @@
 fastapi
 uvicorn[standard]
-torch
 transformers
 Pillow
 python-multipart
 sentencepiece
 opencv-python
 matplotlib
+numpy
+accelerate
+datasets
+google-generativeai
