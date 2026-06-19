@@ -126,6 +126,8 @@ class CRNNInference:
 
         with torch.no_grad():
             logits = self.model(tensor)
+            # Model output: [seq_len, batch, classes] → [batch, seq_len, classes]
+            logits = logits.permute(1, 0, 2)
             probs = logits.softmax(2)
             best_probs, pred = probs.max(dim=2)
 
